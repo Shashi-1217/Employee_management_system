@@ -1,0 +1,8 @@
+package com.ihub.www.repo;
+
+import com.ihub.www.model.Employee;
+
+public class EmployeeRepository extends JpaRepository<Employee, Long>
+{
+
+}
